@@ -706,7 +706,7 @@ class blachagiRigTools(Ui_MainWindow, Ui_BaseClass):
         '''
         adds all scripts to the loaded manifest
         '''
-        if self.tableWidget_other_script_box.rowCount() > 1:
+        if self.tableWidget_other_script_box.rowCount() > 0:
             for item in self.tableWidget_other_script_box.selectedItems():
                 
                 myLabel = str(item.text())
