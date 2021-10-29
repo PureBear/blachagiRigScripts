@@ -7,13 +7,12 @@ AUTHOR = "Hun Back"
 
 import os, re, functools, webbrowser, cPickle, logging, cStringIO, platform, zipfile, sys, types, shutil
 import subprocess
-import sip
 from maya  import cmds, mel, OpenMayaUI, OpenMaya
 import xml.etree.ElementTree as xml 
 import yaml
 import imp
 from datetime import datetime
-
+import json
 
 
 #Reload boolean

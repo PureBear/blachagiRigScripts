@@ -1,7 +1,6 @@
 # python imports
 import os
 import subprocess
-# import sip
 import sys
 import imp
 import re
