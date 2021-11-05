@@ -157,7 +157,7 @@ class blachagiRigTools(Ui_MainWindow, Ui_BaseClass):
             qtObject.setWhatsThis(ToolTip)
         
         # applyPNGIcon( self.AvarageWeightButton,      self.avarageVertex,           "AvarageVerts",    "average" )
-        applyPNGIcon( self.btn_script_box_pin,      '',           "pin",    "pined" )
+        # applyPNGIcon( self.btn_script_box_pin,      '',           "pin",    "pined" )
 
     def _meunbarSetup(self):
         self.actionAdd_Project.triggered.connect(self._add_project_setup)
